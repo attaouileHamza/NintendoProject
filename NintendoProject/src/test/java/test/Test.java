@@ -1,16 +1,19 @@
 package test;
 
+import java.time.LocalDate;
+
 import metier.Boutique;
 import metier.Client;
 import metier.Console;
 import metier.Jeu;
+
 
 public class Test {
 
 	public static void main(String[] args) {
 
 		
-		Console c1 = new Console("PS5");
+		Console c1 = new Console("PS5", 500, LocalDate.parse("2015-01-01"));
 		
 		Jeu j1= new Jeu("prince1", c1);
 		Jeu j2= new Jeu("prince2", c1);
