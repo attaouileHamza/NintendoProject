@@ -1,9 +1,8 @@
 package test;
 
 import java.time.LocalDate;
-
-
 import java.util.Collections;
+
 import metier.Achat;
 import metier.Boutique;
 import metier.Client;
