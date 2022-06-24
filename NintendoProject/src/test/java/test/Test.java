@@ -1,5 +1,6 @@
 package test;
 
+import metier.Boutique;
 import metier.Console;
 import metier.Jeu;
 
@@ -15,6 +16,8 @@ public class Test {
 		Jeu j3= new Jeu("prince3", c1);
 		Jeu j4= new Jeu("prince4", c1);
 		Jeu j5= new Jeu("prince5", c1);
+		
+		Boutique b1= new Boutique ("boutique 1", "2 rue du jeu");
 		
 		
 
