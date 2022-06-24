@@ -1,13 +1,13 @@
 package test;
 
 import java.time.LocalDate;
-import java.util.Collections;
 
 import metier.Achat;
 import metier.Boutique;
 import metier.Client;
 import metier.Console;
 import metier.Jeu;
+import metier.Salon;
 
 
 public class Test {
@@ -15,7 +15,7 @@ public class Test {
 	public static void main(String[] args) {
 
 		
-		Console c1 = new Console("PS5", 500, LocalDate.parse("2015-01-01"));
+		Console c1 = new Salon("PS5", 500, LocalDate.parse("2015-01-01"));
 		
 		Boutique b1= new Boutique ("boutique 1", "2 rue du jeu");
 		
