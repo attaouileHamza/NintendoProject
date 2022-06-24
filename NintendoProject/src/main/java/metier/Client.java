@@ -9,7 +9,6 @@ public class Client {
 	private List achats = new ArrayList<>();
 	
 	public Client(String nom, String prenom) {
-		super();
 		this.nom = nom;
 		this.prenom = prenom;
 	}
@@ -28,6 +27,15 @@ public class Client {
 
 	public void setPrenom(String prenom) {
 		this.prenom = prenom;
+	}
+
+	
+	public List<Achat> getAchats() {
+		return achats;
+	}
+
+	public void setAchats(List<Achat> achats) {
+		this.achats = achats;
 	}
 
 	@Override
